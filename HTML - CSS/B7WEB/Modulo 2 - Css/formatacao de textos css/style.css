@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+    margin: 50px;
+    font-size: 17px;
+}
+
+p{
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Helvetica, Arial, Comic Sans MS; /* caso n tenha a helvetica no pc, subtstitui com a proxima fonte */
+    text-align: left;
+}
+
+a{
+    text-decoration: none;    
+}
+
+a:hover{
+    text-decoration: underline;
+}
+a:visited{
+    color: inherit;
+}
