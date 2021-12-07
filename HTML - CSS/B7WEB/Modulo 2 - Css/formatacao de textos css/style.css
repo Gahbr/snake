@@ -12,10 +12,17 @@ p{
     color: blue;
     font-size: 30px;
     font-weight: bold;
-    font-family: Helvetica, Arial, Comic Sans MS; /* caso n tenha a helvetica no pc, subtstitui com a proxima fonte */
+    font-family: Helvetica, Arial, 'Comic Sans MS'; /* caso n tenha a helvetica no pc, subtstitui com a proxima fonte && em aspas caso fonte tenha +1 palavra*/
     text-align: left;
+    word-spacing: 20px; /* espacamento entre palavras */
+    line-height: 30px /* espacamento entre linhas */;
+    text-shadow: 1px 1px 3px red;
+    /* text-transform: capitalize;
+    text-transform: lowercase; */
 }
-
+h1{
+    font-family: 'Indie Flower', cursive;
+}
 a{
     text-decoration: none;    
 }
@@ -25,4 +32,7 @@ a:hover{
 }
 a:visited{
     color: inherit;
+}
+p#font{
+    font-family: 'Chilanka', cursive;
 }
