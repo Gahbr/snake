@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="teste.php" method="post">
+
+        <fieldset><!-- conjunto de campos -->
+            <legend>Dados pessoais</legend>
+        <label>
+            Primeiro nome:</br>
+            <input type="text" name="name" required minlength="2" maxlength="14"/>
+        </label></br>
+
+        <label>
+            Sobrenome:</br>
+            <input type="text" name="lastname" minlength="2" maxlength="10">
+        </label></br>
+
+        <label>
+            E-mail:</br>
+            <input type="email" name="email" required minlength="2" maxlength="10">
+        </label></br>
+
+        <label>
+            Data de nascimento:</br>
+            <input type="date" name="birthdate" required min="2000-01-01">
+        </label></br>
+    </fieldset>
+
+        <fieldset>
+            <legend>Dados profissionais</legend>
+        <label>
+            Nome da empresa:</br>
+            <input type="text" name="companyname" id="">
+        </label></br>
+
+        <label>
+            Cargo na empresa</br>
+            <input type="text" name="companyjobtitle" id="">
+        </label></br>
+    </fieldset>
+
+        <input type="submit" value="Cadastrar">
+    
+    </form>
+</body>
+</html>
