@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post" action="teste.php" enctype="multipart/form-data"><!-- sempre q por arquivos colocar enctype -->
+
+        <input type="hidden" name="country" value="br">
+
+    <fieldset>
+        <legend>Dados pessoais</legend>
+
+    <label>
+        Primeiro nome:<br>
+        <input type="text" name="name" id=""> <Br>
+    </label>
+
+    <label>
+        Sobrenome:<br>
+        <input type="text" name="surname" id="">
+    </label>
+
+    <label>
+        Foto:<br>
+        <input type="file" name="file" accept="image/*" /> <!-- accept= "application/pdf" -->
+    </label>
+    </fieldset>
+    <fieldset>
+        <legend>Dados profissionais</legend>
+        <label>
+            Nome da empresa:<br>
+            <input type="text" name="companyname" id=""> <br>
+        </label>
+    
+        <label>
+            Cargo na empresa:<br>
+            <input type="text" name="jobtitle" id="">
+        </label>
+    </fieldset>
+    <button>Cadastrar</button>
+</form>
+</body>
+</html>

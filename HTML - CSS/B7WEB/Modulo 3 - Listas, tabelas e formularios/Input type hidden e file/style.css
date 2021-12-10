@@ -1,0 +1,25 @@
+*{ /* para todos os elementos da pagina */
+    box-sizing: border-box; /* width será a soma do conteúdo com a borda e o padding. */
+}
+
+
+body{
+    margin: 0px;
+    
+}
+
+legend{
+   background-color: darkred;
+   color: white;
+   
+}
+label{
+    
+
+
+}
+fieldset{
+    background-color: lightgray;
+    border: 2px solid red;
+    margin-bottom: 20px;
+}
