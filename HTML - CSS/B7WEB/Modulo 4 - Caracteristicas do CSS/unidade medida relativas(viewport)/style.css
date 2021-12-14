@@ -6,3 +6,23 @@
 body{
     margin: 0px;
 }
+
+.box{
+    background-color: gray;
+    height: 10vh; /* espaco disponivel da tela q tem pro usuario */
+    font-size: 15px;
+
+
+
+}
+h1{
+    font-size: 30px;
+    color: #1110ff;/* hexadecimal: 2 valores para R, 2 para G, e 2 para B */
+   
+}
+
+.box h1{
+    font-size: inherit;
+    color: inherit;
+    border: 2px solid #990000;
+}
