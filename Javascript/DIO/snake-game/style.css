@@ -1,0 +1,14 @@
+body{
+    margin:0;
+    height: 95vh;
+    width: 95;
+    display: flex;
+    justify-content: center; /* alinha horizontalmente no meio */
+    align-items: center;/* alinha verticalmente */
+    flex-direction: column; /* alinhar o  flex */
+   color:rgb(0, 54, 0)
+}
+
+#snake{
+    border: 2px solid #004400;
+}
