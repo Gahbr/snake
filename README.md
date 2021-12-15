@@ -1,1 +1,1 @@
-# snake
+# Jogo da cobra em Javascript
